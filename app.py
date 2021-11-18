@@ -11,3 +11,6 @@ def hello():
     with tracer.trace('hello') as span:
         time.sleep(5)
         print("hello")
+
+if __name__ == '__main__':
+    main()
